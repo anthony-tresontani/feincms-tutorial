@@ -124,6 +124,10 @@ FEINCMS installation:
 	    {% endblock %}
 	</div>
 
+- run
+
+	python manage.py runserver
+
 - go to the admin page and log in as admin
 - go to sites and change the example.com with localhost:8000
 - go to Pages and click add
