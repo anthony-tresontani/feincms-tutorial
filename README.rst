@@ -4,7 +4,7 @@ The following explanations try to make you do it step by step.
 If something is missing, and you know what, please send a pull request.
 If something is missing, and you don't know what, please send a mail to dev.tresontani@gmail.com
 
-If you are bored with the tutorial and just want that to be working, go to the section I PULLED.
+If you are bored with the tutorial and just want that to be working, go to the section I CLODED.
 
 PREREQUISITES:
 --------------
@@ -124,6 +124,34 @@ FEINCMS installation:
 	    {% endblock %}
 	</div>
 
+- run
+
+	python manage.py runserver
+
+- go to the admin page and log in as admin
+- go to sites and change the example.com with localhost:8000
+- go to Pages and click add
+- Add a richtext
+- click view on site
+
+THAT'S IT
+
+I CLONED
+--------
+
+- Install required packages
+
+	pip install PIL django django-mptt feincms
+
+- Get the code
+
+	git clone https://github.com/anthony-tresontani/feincms-tutorial.git
+
+- run
+
+	python manage.py syncdb 
+
+- and create an admin user
 - run
 
 	python manage.py runserver
