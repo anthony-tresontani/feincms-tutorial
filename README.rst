@@ -30,7 +30,7 @@ FEINCMS installation:
 
 - Start your django project
 
-	django-admin startproject feincms
+	django-admin startproject feincmstuto
 
 - in feincms directory, create your app
 
