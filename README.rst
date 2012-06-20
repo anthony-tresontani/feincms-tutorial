@@ -39,10 +39,15 @@ FEINCMS installation:
 - Add this in settings.py INSTALLED APPS 
 
     ...
+
     'feincms',
+
     'feincms.module.page',
+
     'feincms.module.medialibrary',
+
     'cms',
+
     ...
 
 - and uncomment
